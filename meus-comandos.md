@@ -24,4 +24,20 @@ Sou o Pedro - v3 com DOCKERFILE!
 ## QUANDO DER ERRO
 Porta ocupada? -> docker ps, depois docker rm -f nome
 Dockerfile minúsculo? -> mv dockerfile Dockerfile
-Esqueci comando? -> docker --help ou Google, todo mundo usa cola
+Esqueci comando? -> docker --help ou Google, todo mundo usa col
+a
+## GITHUB - Salvar na nuvem - 02/11/2026
+gh auth login = logar no GitHub (fiz hoje e deu Logged in as pedroberton)
+git status = ver o que tá vermelho (não salvo)
+git add . = colocar tudo na caixinha
+git commit -m "mensagem" = fechar a caixinha com nome
+git push = mandar pro GitHub (hoje fiz git push -u origin main e subiu!)
+git pull = puxar o que tá no GitHub pra meu PC
+
+## MEU FLUXO TODO DIA
+1. docker start meu-v3 (se já tenho container)
+2. mudo o index.html
+3. git add .
+4. git commit -m "o que eu fiz"
+5. git push
+6. atualizo github.com/pedroberton/meu-primeiro-projeto e vejo lá
