@@ -8,10 +8,8 @@ Meu primeiro site rodando em container Docker.
 - Volume: mudar o index.html sem precisar dar build de novo
 
 ## Como rodar
+
 docker run -d --name meu-v5 -p 8081:80 -v $(pwd):/usr/share/nginx/html nginx
-
-
-```
 
 Depois abre no navegador: http://localhost:8081
 
